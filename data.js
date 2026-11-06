@@ -1,5 +1,5 @@
 window.SITE = {
-  profile: { age: null },
+  profile: { age: 13 },
   projects: [
     {
       mark: "PSBL",
