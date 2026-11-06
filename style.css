@@ -60,14 +60,16 @@ h2{font:500 clamp(2.2rem,6vw,4.5rem)/1 var(--serif);letter-spacing:-.025em;margi
 .toast{position:fixed;left:50%;bottom:1.5rem;z-index:30;transform:translate(-50%,2rem);opacity:0;pointer-events:none;padding:.7rem 1.2rem;border-radius:999px;background:var(--tx);color:var(--ink);font-weight:600;font-size:.92rem;transition:opacity .3s,transform .3s}
 .toast.on{opacity:1;transform:translate(-50%,0)}
 .bar .logo {
-  display: inline-block;
-  width: 180px;
-  height: 40px;
-  background-image: url('./gabriel.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}   
+  font-family: 'Fraunces', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: -0.02em;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+}  
 @media (max-width:860px){
   .stmt,.txt{grid-column:1/-1}
   .card,.card.big,.card.sm{grid-column:1/-1}
