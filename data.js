@@ -27,10 +27,10 @@ window.SITE = {
     },
     {
       mark: "So",
-      image: "./saara.png",
+      image: "./saaraodontologia.png",
       alt: "Imagem do site Saara Odontologia desenvolvido por Gabriel.",
       title: "Saara Odontologia",
-      text: "Um site de odontologia para o seu sorriso. (Site demonstrativo)",
+      text: "Projeto demonstrativo de um site odontológico, desenvolvido com **HTML, CSS e JavaScript**, com foco em uma experiência visual moderna, sofisticada e responsiva. A interface foi pensada para transmitir confiança e profissionalismo, apresentando os serviços odontológicos de forma clara, com navegação intuitiva e identidade visual voltada à saúde e ao cuidado com o sorriso.",
       tech: ["HTML", "CSS", "JavaScript"],
       links: [
          { label: "Site", href: "https://saaraodontologia.pages.dev/" }
