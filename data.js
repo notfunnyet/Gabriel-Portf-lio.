@@ -26,14 +26,13 @@ window.SITE = {
       links: ["https://github.com/notfunnyet/TETRIS"]
     },
     {
-      mark: "Cg",
-      image: "./cognita.png",
-      tall: true,
-      alt: "Imagem do site cognitaiq feito por Gabriel.",
-      title: "Cognita - Teste de QI",
-      text: "Um site feito para testar sua capacidade mental e ver até aonde vocÊ vai.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      links: ["https://cognitaiq.pages.dev/"]
+    mark: "Cg",
+    image: "./cognita.png",
+    alt: "Imagem do site Cognita desenvolvido por Gabriel.",
+    title: "Cognita - Teste de QI",
+    text: "Um site desenvolvido para explorar raciocínio lógico, percepção e capacidade de resolução de problemas.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    links: ["https://cognitaiq.pages.dev/"]
     }
     /* Modelo: { mark:"Ab", title:"", role:"", text:"", tech:[""], links:[{label:"Código",href:"https://..."}] } */
   ]
