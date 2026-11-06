@@ -27,7 +27,7 @@ window.SITE = {
     },
     {
       mark: "Cg",
-      image: "./cognita.jpg",
+      image: "./cognita.png",
       tall: true,
       alt: "Imagem do site cognitaiq feito por Gabriel.",
       title: "Cognita - Teste de QI",
