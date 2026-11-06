@@ -2,27 +2,27 @@ window.SITE = {
   profile: { age: 13 },
   projects: [
     {
-      mark: "PSBL",
-      title: "PSBL: Partido Soberania Brasileira Leal",
+      mark: "Ex",
+      title: "Exemplo.",
       role: "Desenvolvimento completo",
-      text: "Site institucional do partido em formação, feito do zero em HTML, CSS e JavaScript: princípios, propostas, transparência, notícias, FAQ e documentos, com menu responsivo e busca interna. Mais de 160 commits, publicado no GitHub Pages.",
+      text: "Exemplo.",
       tech: ["HTML", "CSS", "JavaScript"],
-      image: "./psbl.jpg",
+      image: "./",
       alt: "Página inicial do site do PSBL.",
       links: [
-        { label: "Ver site", href: "https://notfunnyet.github.io/psbl/" },
-        { label: "Código", href: "https://github.com/notfunnyet/psbl" }
+        { label: "Ver site", href: "" },
+        { label: "Código", href: "" }
       ]
     },
     {
-      mark: "Tt",
-      image: "./tetris.jpg",
+      mark: "Ex",
+      image: "./",
       alt: "Jogo Tetris desenvolvido em Python.",
-      title: "Tetris em Python",
-      text: "Versão do clássico jogo de blocos, escrita em Python, com pontuação e peças que caem e se empilham no tabuleiro.",
+      title: "Exemplo.",
+      text: "Exemplo.",
       tech: ["Python"],
       links: [
-        { label: "Tetris No Github", href: "https://github.com/notfunnyet/TETRIS" }
+        { label: "Tetris No Github", href: "" }
       ]
     },
     {
