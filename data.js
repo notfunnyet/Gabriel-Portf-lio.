@@ -26,14 +26,14 @@ window.SITE = {
       ]
     },
     {
-      mark: "Cg",
-      image: "./cognita.png",
-      alt: "Imagem do site Cognita desenvolvido por Gabriel.",
-      title: "Cognita - Teste de QI",
-      text: "Um site desenvolvido para explorar raciocínio lógico, percepção e capacidade de resolução de problemas.",
+      mark: "So",
+      image: "./saara.png",
+      alt: "Imagem do site Saara Odontologia desenvolvido por Gabriel.",
+      title: "Saara Odontologia",
+      text: "Um site de odontologia para o seu sorriso. (Site demonstrativo)",
       tech: ["HTML", "CSS", "JavaScript"],
       links: [
-         { label: "Site", href: "https://cognitaiq.pages.dev/" }
+         { label: "Site", href: "https://saaraodontologia.pages.dev/" }
       ]
     }
   ]
