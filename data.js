@@ -21,7 +21,9 @@ window.SITE = {
       title: "Tetris em Python",
       text: "Versão do clássico jogo de blocos, escrita em Python, com pontuação e peças que caem e se empilham no tabuleiro.",
       tech: ["Python"],
-      links: ["https://github.com/notfunnyet/TETRIS"]
+      links: [
+        { label: "Tetris No Github", href: "https://github.com/notfunnyet/TETRIS" }
+      ]
     },
     {
       mark: "Cg",
@@ -30,7 +32,9 @@ window.SITE = {
       title: "Cognita - Teste de QI",
       text: "Um site desenvolvido para explorar raciocínio lógico, percepção e capacidade de resolução de problemas.",
       tech: ["HTML", "CSS", "JavaScript"],
-      links: ["https://cognitaiq.pages.dev/"]
+      links: [
+         { label: "Site", href: "https://cognitaiq.pages.dev/" }
+      ]
     }
   ]
 };
