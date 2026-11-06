@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Portfólio | Gabriel Biagi Souza</title>
+<meta name="description" content="Portfólio de Gabriel Biagi Souza, desenvolvedor web full-stack. HTML, CSS, JavaScript, Python e estudante de Cybersegurança.">
+<meta property="og:title" content="Portfólio | Gabriel Biagi Souza">
+<meta property="og:description" content="Desenvolvedor web full-stack. HTML, CSS, JavaScript, Python e Cybersecurity.">
+<meta property="og:type" content="website">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#0b0a10">
+<link rel="preload" href="assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" type="image/png" href="gabriel.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Pular para o conteúdo</a>
+<div class="light" aria-hidden="true"></div>
+<header class="bar">
+  <a class="logo" href="#top" aria-label="Início">Gabriel Biagi</a>
+  <nav aria-label="Principal"><a href="#sobre">Sobre</a><a href="#projetos">Projetos</a><a href="#stack">Stack</a><a href="#contato">Contato</a></nav>
+</header>
+<main id="main">
+  <section class="hero" id="top">
+    <h1><span class="ln"><span>Ideias que</span></span><span class="ln"><span>viram interface.</span></span></h1>
+    <div class="hero-foot">
+      <p class="lede">Gabriel Biagi Souza, desenvolvedor web full-stack. Front-end com HTML, CSS e JavaScript; back-end com Python e banco de dados.</p>
+      <div class="btns">
+      <a class="btn pri" href="" target="_blank" rel="noopener noreferrer">Falar no WhatsApp (Ainda não disponível.)</a>
+        <a class="btn" href="https://github.com/notfunnyet" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="sobre" aria-labelledby="h-sobre">
+    <h2 class="vh" id="h-sobre">Sobre</h2>
+    <div class="grid">
+      <p class="stmt" id="stmt">Valorizo código bem estruturado, interfaces intuitivas e projetos com identidade própria.</p>
+      <div class="txt">
+        <img class="av" src="assets/gabriel.png" alt="" width="96" height="96">
+        <p>Meu nome é Gabriel Biagi Souza<span id="age"></span> e sou desenvolvedor web full-stack. Desenvolvo interfaces com HTML, CSS e JavaScript e também trabalho com Python e banco de dados.</p>
+        <p>Já trabalhei com banco de dados e fiz testes de segurança, o que influencia a forma como estruturo meus projetos.</p>
+        <p>Meu projeto mais completo até agora é o site do PSBL, que desenvolvi do início ao fim. Busco novos desafios e oportunidades para continuar evoluindo como desenvolvedor.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="projetos" aria-labelledby="h-proj">
+    <h2 id="h-proj">Projetos</h2>
+    <div class="plist" id="list"></div>
+  </section>
+
+  <section class="sec" id="stack" aria-labelledby="h-stack">
+    <h2 id="h-stack">Stack</h2>
+    <div class="stack">
+      <article class="glass"><h3>Interfaces</h3><ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>GSAP</li></ul></article>
+      <article class="glass"><h3>Back-end e dados</h3><ul><li>Python</li><li>Banco de Dados</li><li>Python</li></ul></article>
+      <article class="glass"><h3>Segurança</h3><ul><li>Kali Linux</li><li>Wireshark e Tráfego de redes</li><li>Pentesting</li></ul></article>
+    </div>
+  </section>
+
+  <section class="sec" id="contato" aria-labelledby="h-cont">
+    <h2 id="h-cont">Vamos conversar.</h2>
+    <ul class="contacts">
+      <li><a class="cl" href="https://github.com/notfunnyet" target="_blank" rel="noopener noreferrer"><span>GitHub</span><small>@notfunnyet</small></a></li>
+      <li><button class="cl" id="discord" type="button"><span>Discord</span><small>@notfunnyet (gabrieltales)</small></button></li>
+      <!-- E-mail: adicionar um <li> igual aos acima -->
+    </ul>
+  </section>
+</main>
+<footer class="foot"><p>© Gabriel Biagi Souza</p></footer>
+<p class="toast" id="toast" role="status" aria-live="polite"></p>
+<script src="js/vendor/gsap.min.js"></script>
+<script src="js/vendor/ScrollTrigger.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
